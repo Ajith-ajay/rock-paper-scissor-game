@@ -10,11 +10,6 @@ let playerPoints = 0;
 let computerPoints = 0;
 
 const choices = ["STONE", "PAPER", "SCISSORS"];
-const imageMap = {
-  STONE: "../gameImages/stone.png",
-  PAPER: "../gameImages/paper.png",
-  SCISSORS: "../gameImages/scissors.png"
-};
 
 function playRound(playerChoice) {
   const computerChoice = choices[Math.floor(Math.random() * 3)];
